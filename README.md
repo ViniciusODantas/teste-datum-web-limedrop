@@ -10,7 +10,7 @@ O site limedrop é um e-commerce de roupas e seu foco são marcas importadas e s
 Foi feito a automação dos fluxos mais usados no site: Fluxo venda E2E, cadastro de novos usuarios e exclusão de carrinho.
 
 # História do usuário
-
+```bash
 Funcionalidade: Comprar produto na limedrop
 
 EU como cliente
@@ -35,14 +35,19 @@ E adiciono ao carrinho o produto "Nike x NOCTA Cap - White"
 E preencho os dados de pagamento
 ENTÃO finalizo a minha compra
 
+```
+
 # Tecnologias utilizadas
 ## Automação
-- Java
-- Selenium WebDrive
-- JDK
-- Maven
-- ChromeDriver
 
+```bash
+. Java
+. Selenium WebDrive
+. JDK
+. Maven
+. ChromeDriver
+
+```
 # Como executar o projeto
 
 ## Links importantes
