@@ -1,5 +1,5 @@
 # Automatizando limedrop
-[![NPM](https://img.shields.io/npm/l/react)][(https://github.com/devsuperior/sds1-wmazoni/blob/master/LICENSE) ](https://github.com/ViniciusODantas/teste-datum-web-limedrop/blob/main/LICENSE)
+[![NPM](https://img.shields.io/npm/l/react)](https://github.com/ViniciusODantas/teste-datum-web-limedrop/blob/main/LICENSE)
 
 # Sobre o projeto
 
@@ -9,69 +9,55 @@ O site limedrop é um e-commerce de roupas e seu foco são marcas importadas e s
 
 Foi feito a automação dos fluxos mais usados no site: Fluxo venda E2E, cadastro de novos usuarios e exclusão de carrinho.
 
-## Layout mobile
-![Mobile 1](https://github.com/acenelio/assets/raw/main/sds1/mobile1.png) ![Mobile 2](https://github.com/acenelio/assets/raw/main/sds1/mobile2.png)
-
-## Layout web
-![Web 1](https://github.com/acenelio/assets/raw/main/sds1/web1.png)
-
-![Web 2](https://github.com/acenelio/assets/raw/main/sds1/web2.png)
-
-## Modelo conceitual
-![Modelo Conceitual](https://github.com/acenelio/assets/raw/main/sds1/modelo-conceitual.png)
-
 # Tecnologias utilizadas
-## Back end
+## Automação
 - Java
-- Spring Boot
-- JPA / Hibernate
+- Selenium WebDrive
+- JDK
 - Maven
-## Front end
-- HTML / CSS / JS / TypeScript
-- ReactJS
-- React Native
-- Apex Charts
-- Expo
-## Implantação em produção
-- Back end: Heroku
-- Front end web: Netlify
-- Banco de dados: Postgresql
+- ChromeDriver
 
 # Como executar o projeto
 
-## Back end
-Pré-requisitos: Java 11
+## Links importantes
 
 ```bash
-# clonar repositório
-git clone https://github.com/devsuperior/sds1-wmazoni
+. https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java - Repositorio mvn
+. https://spring.io/tools - Spring tool (Ferramenta de editor de texto)
+. https://googlechromelabs.github.io/chrome-for-testing/ - ChromeDriver
 
-# entrar na pasta do projeto back end
-cd backend
-
-# executar o projeto
-./mvnw spring-boot:run
 ```
 
-## Front end web
-Pré-requisitos: npm / yarn
+## Ferramentas
+Pré-requisitos: Java
 
 ```bash
-# clonar repositório
-git clone https://github.com/devsuperior/sds1-wmazoni
+. JDK
+. Spring tool
+. ChromeDriver
 
-# entrar na pasta do projeto front end web
-cd front-web
+```
+
+## Automação
+Pré-requisitos: Instalar ferramentas
+
+```bash
+# Download dos arquivos
+limedrop.zip
+pom.xml
+
+# Acessar um editor de como o Spring tool
+Importar os arquivos
 
 # instalar dependências
-yarn install
+Selenium Java
 
 # executar o projeto
-yarn start
+Antes da execução da class "CompraCliExistente" executar a class "LimparCarrinho" para excluir o carrinho
 ```
 
 # Autor
 
-Wellington Mazoni de Andrade
+Vinicius de Oliveira Dantas
 
-https://www.linkedin.com/in/wmazoni
+https://www.linkedin.com/in/vinicius-dantas-a88b36122
